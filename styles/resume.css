@@ -1,0 +1,117 @@
+.resume-box {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+.experience-box {
+  border-top: solid 1px black;
+  margin-top: 50px;
+  margin-left: 100px;
+  padding-top: 12px;
+  padding-left: 12px;
+  width: 500px;
+}
+.resume-header {
+  margin-top: 12px;
+  margin-left: 12px;
+  font-size: 40px;
+  color: rgb(112, 159, 228);
+  font-weight: 900;
+}
+.job-role {
+  margin-left: 100px;
+  font-weight: 600;
+  font-size: 22px;
+  width: 300px;
+}
+.time-frame {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top:22px;
+  margin-left: 130px;
+}
+ul {
+  font-size: 22px;
+}
+li {
+  margin-bottom: 12px;
+}
+.skills-box {
+  border-top: solid 1px black;
+  margin-top:50px;
+  margin-right:100px;
+  padding-top:12px;
+  padding-left:12px;
+  width: 500px;
+}
+
+.education-box {
+  margin-top:50px;
+  margin-left:100px;
+  padding-top:12px;
+  padding-left:12px;
+  width: 500px;
+}
+
+.school-name {
+  font-size:25px;
+  font-weight: 900;
+  margin-top: 50px;
+  margin-bottom: 26px;
+}
+.awards-box {
+  margin-top:50px;
+  margin-right:100px;
+  padding-top:12px;
+  padding-left:12px;
+  width: 500px;
+}
+
+.classes {
+  font-size: 22px;
+  line-height: 50px;
+}
+
+@media (max-width: 750px) {
+  .resume-box {
+    grid-template-columns: 1fr;
+  }
+  .skills-box {
+    margin-left: 100px;
+    width: 400px;
+  }
+  .education-box {
+    width: 400px;
+  }
+  .experience-box {
+    width: 400px;
+  }
+  .awards-box {
+    margin-left: 100px;
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 751px) and (max-width: 999px) {
+  .resume-box {
+    grid-template-columns: 1fr 1fr;
+  }
+  .skills-box {
+    width: 400px;
+  }
+  .education-box {
+    width: 400px;
+  }
+  .experience-box {
+    width: 400px;
+  }
+  .awards-box {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .resume-box {
+    grid-template-columns: 1fr 1fr
+  }
+}

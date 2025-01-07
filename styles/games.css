@@ -1,0 +1,72 @@
+.images-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.colorjump, .shooter, .topdown {
+  margin-bottom: 22px;
+  border-width: 2px;
+  border-style:solid;
+  width:600px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.colorjump-box, .shooter-box, .topdown-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.game-explanation {
+  font-size: 22px;
+}
+
+@media (max-width: 750px) {
+  .colorjump-box, .shooter-box, .topdown-box {
+    flex-direction: column;
+  }
+
+.game-explanation {
+  font-size: 22px;
+  margin-left: 12px;
+  width: 500px;
+}
+.shooter {
+  margin-top:22px;
+}
+.topdown {
+  margin-top:22px;
+}
+}
+@media (min-width: 751px) and (max-width: 999px) {
+  .colorjump-box, .shooter-box, .topdown-box {
+    flex-direction: column;
+  }
+  .colorjump, .shooter, .topdown {
+    width: 500px;
+  }
+  .shooter {
+    margin-top: 42px;
+  }
+  .topdown {
+    margin-top:42px;
+  }
+  .colorjump-box {
+    flex-direction: column;
+  }
+  
+  .game-explanation {
+    margin-left: 12px;
+    width: 700px;
+  }
+  }
+  @media (min-width: 1000px) {
+    .game-explanation {
+      margin-left: 60px;
+      max-width: 600px;
+    }
+    .colorjump-box, .shooter-box, .topdown-box {
+      margin-left: 200px;
+    }
+  }

@@ -1,0 +1,47 @@
+.about-me {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-top: 150px;
+}
+.name {
+  font-size: 60px;
+  width: 220px;
+  height: 150px;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+@keyframes name {
+  0% {font-family: Roboto, Arial;}
+  50% {font-family: Agdasima, 'Times New Roman';}
+  100% {font-family: fantasy, 'Lucida Sans';}
+}
+
+.dj {
+  font-weight: 800;
+  color: rgb(68, 94, 180);
+  animation-name: name;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-timing-function: ease-in-out;
+}
+.information {
+  margin-left: 30px;
+  margin-right: 50px;
+  flex: 1;
+  font-size: 20px;
+  line-height: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+}
+.info-one, .info-two, .info-three {
+  margin-bottom: 20px;
+}
+
+.link {
+  margin-top:100px;
+  margin-left:200px;
+  font-size: 30px;
+}

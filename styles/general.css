@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(228, 228, 228);
+  padding-top: 100px;
+  animation-name: background;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-timing-function: ease;
+}
+div, p {
+  margin:0;
+  font-family: Roboto, Arial;
+}
+
+a {
+  color: purple;
+}
+a:active {
+  color:lightcoral
+}
+a:hover {
+  color: rgb(153, 2, 153);
+}
+a:visited {
+  color: violet;
+}
+
+@keyframes background {
+  0% {background-color: rgb(228, 228, 228);}
+  50% {background-color: rgb(235, 235, 235);}
+  100% {background-color: rgb(228, 228, 228);}
+}
+
+@media (max-width: 750px) {
+  body {
+    padding-top: 200px;
+  }
+}

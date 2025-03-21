@@ -1,3 +1,8 @@
+model-viewer {
+  height: 50vh;
+  width: 100%;
+}
+
 .main-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -65,4 +70,26 @@
   font-size: 22px;
   line-height: 32px;
   margin-top: 22px;
+}
+.goblin-model {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.caption-four {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  font-size: 22px;
+  line-height: 32px;
+  width: 300px;
+  margin-top: 22px;
+  margin-left: 120px;
+}
+.caption-five {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  font-size: 22px;
+  line-height: 32px;
+  width: 300px;
+  margin-top: 22px;
+  margin-left: 150px;
 }

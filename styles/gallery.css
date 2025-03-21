@@ -3,6 +3,10 @@ model-viewer {
   width: 100%;
 }
 
+audio, model-viewer {
+  z-index: 1;
+}
+
 .main-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -71,12 +75,6 @@ model-viewer {
   line-height: 32px;
   margin-top: 22px;
 }
-.goblin-model {
-  display: flex;
-  flex-direction: column;
-  margin-left: 80px;
-  margin-top: 50px;
-}
 .caption-four {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
   font-size: 22px;
@@ -92,4 +90,17 @@ model-viewer {
   width: 300px;
   margin-top: 22px;
   margin-left: 150px;
+}
+.donut-model, .goblin-model, .robot-model {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.caption-six {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  font-size: 22px;
+  line-height: 32px;
+  width: 300px;
+  margin-left: 120px;
 }

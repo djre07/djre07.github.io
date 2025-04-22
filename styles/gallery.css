@@ -91,13 +91,20 @@ audio, model-viewer {
   margin-top: 22px;
   margin-left: 150px;
 }
-.donut-model, .goblin-model, .robot-model {
+.donut-model, .goblin-model, .robot-model, .waterbottle-model {
   display: flex;
   flex-direction: column;
   margin-left: 80px;
   margin-top: 50px;
 }
 .caption-six {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  font-size: 22px;
+  line-height: 32px;
+  width: 300px;
+  margin-left: 120px;
+}
+.caption-seven {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
   font-size: 22px;
   line-height: 32px;

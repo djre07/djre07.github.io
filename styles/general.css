@@ -25,6 +25,15 @@ a:visited {
   color: violet;
 }
 
+model-viewer {
+  height: 50vh;
+  width: 100%;
+}
+
+audio, model-viewer {
+  z-index: 1;
+}
+
 @keyframes background {
   0% {background-color: rgb(228, 228, 228);}
   50% {background-color: rgb(235, 235, 235);}

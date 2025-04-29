@@ -1,12 +1,3 @@
-model-viewer {
-  height: 50vh;
-  width: 100%;
-}
-
-audio, model-viewer {
-  z-index: 1;
-}
-
 .main-gallery {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
